@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.portfolio {
+  text-align: center;
+  background-color: #FFB4A2;
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px #FFCDB2;
+}
+
+.profile-image {
+  width: 240px;
+  height: 300px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.social-links {
+  margin-top: 20px;
+}
+
+.social-links a {
+  margin: 0 15px;
+  color: #6D6775;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 135%;
+}
+
+.social-links a:hover {
+  text-decoration: underline;
+}
